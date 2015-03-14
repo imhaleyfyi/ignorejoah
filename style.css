@@ -1,0 +1,46 @@
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 700;
+	font-size: 1.3em;
+	color: #272827;
+	background-color: #efefef;
+}
+
+footer {
+	padding: 3em 0;
+	text-align: center;
+}
+
+main {
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 3em;
+	border-radius: 2px;
+}
+
+h1, h2 {
+	font-weight: 800;
+}
+
+a {
+	text-decoration: none;
+	color: #1BA1BF;
+}
+
+a:hover {
+	color: #18778C;
+}
+
+li {
+	list-style-type: none;
+	padding: 1em;
+}
+
+li > p, li > blockquote {
+	margin: 0 auto;
+}
+
+li > p:before {
+	content: '...';
+}
